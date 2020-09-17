@@ -1,0 +1,7 @@
+node_modules
+.env
+*.sqlite3
+
+// parcel generate some files
+.cache
+dist
