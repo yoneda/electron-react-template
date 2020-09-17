@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "build": "parcel build index.html --public-url ./",
+    "electron": "electron ./main.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "superagent": "^6.1.0"
   },
   "devDependencies": {
+    "electron": "^10.1.2",
     "parcel-bundler": "^1.12.4"
   }
 }

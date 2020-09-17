@@ -15,7 +15,7 @@ function About(props) {
       .get(url)
       .then((res) => res.body)
       .then((body) => {
-        setName(body.data.first_name);
+        setName(body.data.last_name);
       });
   }, []);
   return (
