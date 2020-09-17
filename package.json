@@ -1,0 +1,26 @@
+{
+  "name": "electron-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoneda/electron-react-template.git"
+  },
+  "author": "yoneda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoneda/electron-react-template/issues"
+  },
+  "homepage": "https://github.com/yoneda/electron-react-template#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
